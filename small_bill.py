@@ -6,5 +6,9 @@ distanceamount = distance*5
 withoutgst = (price*quantity)+distanceamount
 gst = withoutgst*0.2
 totalamount = gst + withoutgst
-
-print("Your Order of",price,"/",food,"Total amount is",totalamount)
+print("")
+print("Bill: ",withoutgst)
+print("Gst: ", gst)
+print("Delivery Charges: ",distanceamount)
+print("")
+print("You have to pay",totalamount,"for this order")
